@@ -10,7 +10,9 @@ public class GestionAlumnos {
         listaAlumnos.add(alumno2);
 
     System.out.println("--- Lista de Alumnos ---");
-    System.out.println(listaAlumnos);
+    for (Alumno alumno : listaAlumnos) {
+            System.out.println(alumno); 
+        }
     
  }
 }
